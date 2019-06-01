@@ -5,8 +5,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
+    <pre>{JSON.stringify(data, null, 2)}</pre>
     <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -17,5 +18,17 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    allCountersJson {
+      edges {
+        node {
+          value
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
