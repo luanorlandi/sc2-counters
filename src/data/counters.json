@@ -1,11 +1,68 @@
 [
   {
-    "value": "a"
+    "id": "terran",
+    "units": [{
+      "id": "scv",
+      "countersId": []
+    }, {
+      "id": "marine",
+      "countersId": ["marauder", "mutalisk", "immortal"]
+    }, {
+      "id": "reaper",
+      "countersId": ["scv", "drone", "probe"]
+    }, {
+      "id": "marauder",
+      "countersId": ["thor", "roach", "stalker"]
+    }, {
+      "id": "ghost",
+      "countersId": ["raven", "infestor", "highTemplar"]
+    }, {
+      "id": "hellion",
+      "countersId": ["scv", "zergling", "probe"]
+    }, {
+      "id": "hellbat",
+      "countersId": ["scv", "zergling", "zealot"]
+    }, {
+      "id": "widowMine",
+      "countersId": ["marine", "baneling", "oracle"]
+    }, {
+      "id": "siegeTank",
+      "countersId": ["marine", "hydralisk", "stalker"]
+    }, {
+      "id": "cyclone",
+      "countersId": ["marauder", "roach", "adept"]
+    }, {
+      "id": "thor",
+      "countersId": ["viking", "mutalisk", "phoenix"]
+    }, {
+      "id": "viking",
+      "countersId": ["battlecruiser", "broodLord", "tempest"]
+    }, {
+      "id": "medivac",
+      "countersId": []
+    }, {
+      "id": "liberator",
+      "countersId": ["siegeTank", "ultralisk", "phoenix"]
+    }, {
+      "id": "raven",
+      "countersId": ["siegeTank", "ultralisk", "phoenix"]
+    }, {
+      "id": "battlecruiser",
+      "countersId": ["", "", ""]
+    }]
   },
   {
-    "value": "b"
+    "id": "zerg",
+    "units": [{
+      "id": "zergling",
+      "countersId": ["marine", "liberator", "thor"]
+    }]
   },
   {
-    "value": "c"
+    "id": "protoss",
+    "units": [{
+      "id": "zealot",
+      "countersId": ["marine", "liberator", "thor"]
+    }]
   }
 ]
