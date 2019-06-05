@@ -29,19 +29,25 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: 1600,
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}
         >
-          <main>{children}</main>
-          <footer>
-            ©
-            {' '}
-            {new Date().getFullYear()}
-            , Built with
-            {' '}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <main style={{
+            display: 'flex',
+            justifyContent: 'center',
+          }}
+          >
+            {children}
+          </main>
+          <footer style={{
+            textAlign: 'center',
+            marginTop: '2rem',
+            fontSize: '1.2rem',
+          }}
+          >
+            <a href="https://github.com/luanorlandi/sc2-counters">https://github.com/luanorlandi/sc2-counters</a>
           </footer>
         </div>
       </>
