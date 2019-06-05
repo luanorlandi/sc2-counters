@@ -2,67 +2,154 @@
   {
     "id": "terran",
     "units": [{
-      "id": "scv",
-      "countersId": []
-    }, {
       "id": "marine",
-      "countersId": ["marauder", "mutalisk", "immortal"]
+      "countersId": ["siegeTank", "baneling", "colossus"]
     }, {
       "id": "reaper",
-      "countersId": ["scv", "drone", "probe"]
+      "countersId": ["marauder", "roach", "stalker"]
     }, {
       "id": "marauder",
-      "countersId": ["thor", "roach", "stalker"]
+      "countersId": ["marine", "zergling", "zealot"]
     }, {
       "id": "ghost",
-      "countersId": ["raven", "infestor", "highTemplar"]
+      "countersId": ["thor", "roach", "stalker"]
     }, {
       "id": "hellion",
-      "countersId": ["scv", "zergling", "probe"]
+      "countersId": ["cyclone", "roach", "stalker"]
     }, {
       "id": "hellbat",
-      "countersId": ["scv", "zergling", "zealot"]
+      "countersId": ["marauder", "baneling", "stalker"]
     }, {
       "id": "widowMine",
-      "countersId": ["marine", "baneling", "oracle"]
+      "countersId": ["raven", "overseer", "observer"]
     }, {
       "id": "siegeTank",
-      "countersId": ["marine", "hydralisk", "stalker"]
+      "countersId": ["banshee", "mutalisk", "immortal"]
     }, {
       "id": "cyclone",
-      "countersId": ["marauder", "roach", "adept"]
+      "countersId": ["siegeTank", "zergling", "immortal"]
     }, {
       "id": "thor",
-      "countersId": ["viking", "mutalisk", "phoenix"]
+      "countersId": ["marauder", "zergling", "immortal"]
     }, {
       "id": "viking",
-      "countersId": ["battlecruiser", "broodLord", "tempest"]
-    }, {
-      "id": "medivac",
-      "countersId": []
+      "countersId": ["marine", "hydralisk", "stalker"]
     }, {
       "id": "liberator",
-      "countersId": ["siegeTank", "ultralisk", "phoenix"]
+      "countersId": ["battlecruiser", "corruptor", "tempest"]
     }, {
       "id": "raven",
-      "countersId": ["siegeTank", "ultralisk", "phoenix"]
+      "countersId": ["viking", "mutalisk", "highTemplar"]
     }, {
       "id": "battlecruiser",
-      "countersId": ["", "", ""]
+      "countersId": ["viking", "corruptor", "voidRay"]
+    }, {
+      "id": "banshee",
+      "countersId": ["viking", "hydralisk", "phoenix"]
     }]
   },
   {
     "id": "zerg",
     "units": [{
       "id": "zergling",
-      "countersId": ["marine", "liberator", "thor"]
+      "countersId": ["hellbat", "baneling", "colossus"]
+    }, {
+      "id": "baneling",
+      "countersId": ["marauder", "infestor", "stalker"]
+    }, {
+      "id": "roach",
+      "countersId": ["marauder", "lurker", "immortal"]
+    }, {
+      "id": "ravager",
+      "countersId": ["marauder", "mutalisk", "immortal"]
+    }, {
+      "id": "hydralisk",
+      "countersId": ["siegeTank", "zergling", "colussus"]
+    }, {
+      "id": "lurker",
+      "countersId": ["siegeTank", "viper", "disruptor"]
+    }, {
+      "id": "viper",
+      "countersId": ["ghost", "corruptor", "highTemplar"]
+    }, {
+      "id": "mutalisk",
+      "countersId": ["thor", "viper", "phoenix"]
+    }, {
+      "id": "corruptor",
+      "countersId": ["thor", "hydralisk", "voidRay"]
+    }, {
+      "id": "swarmHost",
+      "countersId": ["banshee", "mutalisk", "stalker"]
+    }, {
+      "id": "locust",
+      "countersId": ["hellbat", "ultralisk", "colussus"]
+    }, {
+      "id": "infestor",
+      "countersId": ["ghost", "ultralisk", "highTemplar"]
+    }, {
+      "id": "ultralisk",
+      "countersId": ["ghost", "broodLord", "immortal"]
+    }, {
+      "id": "broodLord",
+      "countersId": ["viking", "corruptor", "tempest"]
+    }, {
+      "id": "queen",
+      "countersId": ["marine", "zergling", "zealot"]
+    }, {
+      "id": "infestedTerran",
+      "countersId": ["hellbat", "ultralisk", "adept"]
     }]
   },
   {
     "id": "protoss",
     "units": [{
       "id": "zealot",
-      "countersId": ["marine", "liberator", "thor"]
+      "countersId": ["hellbat", "roach", "colossus"]
+    }, {
+      "id": "adept",
+      "countersId": ["marauder", "roach", "stalker"]
+    }, {
+      "id": "sentry",
+      "countersId": ["thor", "ravager", "archon"]
+    }, {
+      "id": "stalker",
+      "countersId": ["marauder", "zergling", "immortal"]
+    }, {
+      "id": "darkTemplar",
+      "countersId": ["raven", "overseer", "observer"]
+    }, {
+      "id": "highTemplar",
+      "countersId": ["ghost", "roach", "colossus"]
+    }, {
+      "id": "archon",
+      "countersId": ["thor", "hydralisk", "immortal"]
+    }, {
+      "id": "immortal",
+      "countersId": ["marine", "zergling", "zealot"]
+    }, {
+      "id": "colossus",
+      "countersId": ["viking", "corruptor", "tempest"]
+    }, {
+      "id": "disruptor",
+      "countersId": ["thor", "ultralisk", "tempest"]
+    }, {
+      "id": "phoenix",
+      "countersId": ["battlecruiser", "corruptor", "carrier"]
+    }, {
+      "id": "voidRay",
+      "countersId": ["marine", "hydralisk", "phoenix"]
+    }, {
+      "id": "oracle",
+      "countersId": ["viking", "mutalisk", "phoenix"]
+    }, {
+      "id": "carrier",
+      "countersId": ["viking", "corruptor", "tempest"]
+    }, {
+      "id": "tempest",
+      "countersId": ["viking", "corruptor", "voidRay"]
+    }, {
+      "id": "mothership",
+      "countersId": ["viking", "corruptor", "tempest"]
     }]
   }
 ]
