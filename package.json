@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "eslint": "^5.16.0",
-    "gatsby": "^2.8.2",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.1.2",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.1",
